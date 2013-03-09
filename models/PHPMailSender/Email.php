@@ -1,5 +1,8 @@
 <?php
-
+require_once(realpath(dirname(__FILE__)) . '/../../models/PHPMailSender/Address.php');
+require_once(realpath(dirname(__FILE__)) . '/../../models/PHPMailSender/Text.php');
+require_once(realpath(dirname(__FILE__)) . '/../../models/PHPMailSender/Paper.php');
+require_once('Mail.php');
 
 /**
  * @access public
@@ -29,7 +32,26 @@ class Email {
 	 * @ReturnType boolean
 	 */
 	public function Send() {
-		// Not yet implemented
+        $aHeaders=array(
+            'From'=>$this->from->getAddress(),
+            'To'=>$this->to->getAddress(),
+            'Subject'=>'=?UTF-8?B?'.base64_encode($this->subject).'?=',
+            'Mime-Version'=>'1.0',
+            'Content-Type'=>'text/html; charset=utf-8'
+        );
+        $smtp=Mail::factory(
+            'smtp',
+            array (
+                'host'=>'ssl://smtp.gmail.com',
+                'port'=>'465',
+                'auth'=>true,
+                'username'=>$this->from->getAddress(),
+                'password'=>'`zaq1xsw2cde3'
+            )
+        );
+
+        $mail=$smtp->send($this->to->getAddress(),$aHeaders,$this->text->getSourceText());
+        return !(PEAR::isError($mail));
 	}
 
 	/**
