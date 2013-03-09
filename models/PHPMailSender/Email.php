@@ -37,7 +37,7 @@ class Email {
 	 * @param PHPMailSender.Adress aTo
 	 * @ParamType aTo PHPMailSender.Adress
 	 */
-	public function setTo(Adress $aTo) {
+	public function setTo(Address $aTo) {
 		$this->to = $aTo;
 	}
 
@@ -46,7 +46,7 @@ class Email {
 	 * @param PHPMailSender.Adress aFrom
 	 * @ParamType aFrom PHPMailSender.Adress
 	 */
-	public function setFrom(Adress $aFrom) {
+	public function setFrom(Address $aFrom) {
 		$this->from = $aFrom;
 	}
 

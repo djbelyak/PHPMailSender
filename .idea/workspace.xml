@@ -1,28 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/models/PHPMailSender/Adress.php" line="19" />
+    <bookmark url="file://$PROJECT_DIR$/models/PHPMailSender/Address.php" line="21" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17e0aa5a-a278-461d-ae45-c5bc838d74fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Exceptions/AdressException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Exceptions/EmptyAdressException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Exceptions/EmptyTextException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Exceptions/NotValidAdressException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Exceptions/PHPMailSenderException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Exceptions/PaperException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Exceptions/TextException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Exceptions/UnavailiblePaperException.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/PHPMailSender/Adress.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/PHPMailSender/Email.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/PHPMailSender/Paper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/PHPMailSender/Text.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/models/AdressTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Exceptions/EmptyAddressException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Exceptions/NotValidAddressException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/Libraries/simple_html_dom.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/models/PHPMailSender/Address.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/models/AddressTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/models/PaperTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/models/TextTest.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/Exceptions/EmptyAdressException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/Exceptions/NotValidAdressException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/models/PHPMailSender/Adress.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/models/AdressTest.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/Exceptions/AdressException.php" afterPath="$PROJECT_DIR$/models/Exceptions/AddressException.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/models/Exceptions/UnavailiblePaperException.php" afterPath="$PROJECT_DIR$/models/Exceptions/NotAvailablePaperException.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sendpage.html" afterPath="$PROJECT_DIR$/sendpage.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sendtext.html" afterPath="$PROJECT_DIR$/sendtext.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/PHPMailSender/Email.php" afterPath="$PROJECT_DIR$/models/PHPMailSender/Email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/PHPMailSender/Paper.php" afterPath="$PROJECT_DIR$/models/PHPMailSender/Paper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/PHPMailSender/Text.php" afterPath="$PROJECT_DIR$/models/PHPMailSender/Text.php" />
     </list>
     <ignored path="PHPMailSender.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,19 +47,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AdressTest.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/models/AdressTest.php">
+      <file leaf-file-name="PaperTest.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/models/PaperTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="51" selection-start="1510" selection-end="1510" vertical-scroll-proportion="1.3898602">
+            <state line="25" column="38" selection-start="652" selection-end="652" vertical-scroll-proportion="0.6555944">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Adress.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Adress.php">
+      <file leaf-file-name="Paper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Paper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="32" selection-start="434" selection-end="434" vertical-scroll-proportion="-11.875">
+            <state line="56" column="51" selection-start="1478" selection-end="1478" vertical-scroll-proportion="-16.0">
               <folding />
             </state>
           </provider>
@@ -76,23 +75,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/model/MailSender.php" />
-        <option value="$PROJECT_DIR$/tests/StackTest.php" />
-        <option value="$PROJECT_DIR$/sendpage.html" />
-        <option value="$PROJECT_DIR$/sendtext.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/models/Model.php" />
         <option value="$PROJECT_DIR$/models/Mail.php" />
         <option value="$PROJECT_DIR$/tests/MailTest.php" />
         <option value="$PROJECT_DIR$/models/PHPMailSender/Email.php" />
-        <option value="$PROJECT_DIR$/models/PHPMailSender/Text.php" />
-        <option value="$PROJECT_DIR$/models/PHPMailSender/Paper.php" />
         <option value="$PROJECT_DIR$/models/Exceptions/PHPMailSenderException.php" />
         <option value="$PROJECT_DIR$/models/PHPMailSender/Adress.php" />
         <option value="$PROJECT_DIR$/tests/models/AdressTest.php" />
+        <option value="$PROJECT_DIR$/models/Exceptions/EmptyAddressException.php" />
+        <option value="$PROJECT_DIR$/tests/models/AddressTest.php" />
+        <option value="$PROJECT_DIR$/models/PHPMailSender/Address.php" />
+        <option value="$PROJECT_DIR$/models/PHPMailSender/Text.php" />
+        <option value="$PROJECT_DIR$/tests/models/TextTest.php" />
+        <option value="$PROJECT_DIR$/models/Exceptions/NotavailablePaperException.php" />
+        <option value="$PROJECT_DIR$/models/Exceptions/NotAvailablePaperException.php" />
+        <option value="$PROJECT_DIR$/models/PHPMailSender/Paper.php" />
+        <option value="$PROJECT_DIR$/tests/models/PaperTest.php" />
       </list>
     </option>
   </component>
@@ -197,6 +201,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHPMailSender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHPMailSender" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Exceptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -251,6 +273,11 @@
       <created>1362465735446</created>
       <updated>1362465735446</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adress class developed">
+      <created>1362760306134</created>
+      <updated>1362760306134</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -275,23 +302,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="453" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32915717" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3279743" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46463022" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14545454" sideWeight="0.32636657" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14848486" sideWeight="0.670418" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14924243" sideWeight="0.67202574" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4630225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2540193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -334,7 +361,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Copy skillet of model from Visual Paradigm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Text and Paper classes developed" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -348,82 +375,107 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Copy skillet of model from Visual Paradigm" />
+    <MESSAGE value="Adress class developed" />
+    <MESSAGE value="Text and Paper classes developed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="13" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sendtext.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="11" selection-start="981" selection-end="981" vertical-scroll-proportion="0.44341373">
-          <folding />
-        </state>
+        <state line="30" column="11" selection-start="981" selection-end="981" vertical-scroll-proportion="0.44341373" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sendpage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="11" selection-start="838" selection-end="1450" vertical-scroll-proportion="0.49907234">
+        <state line="32" column="11" selection-start="838" selection-end="1450" vertical-scroll-proportion="0.49907234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="10" selection-start="1567" selection-end="1567" vertical-scroll-proportion="1.2244898" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0528169" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Exceptions/PHPMailSenderException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="46" selection-start="101" selection-end="101" vertical-scroll-proportion="0.26408452" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Exceptions/EmptyAddressException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="36" selection-start="175" selection-end="191" vertical-scroll-proportion="-4.375" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Exceptions/NotValidAddressException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Exceptions/AddressException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Address.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="5" selection-start="729" selection-end="729" vertical-scroll-proportion="0.036231883">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Exceptions/NotAvailablePaperException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="143" selection-end="169" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/Libraries/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="727" column="22" selection-start="25444" selection-end="25448" vertical-scroll-proportion="-2.5510204">
+          <folding>
+            <element signature="e#6#2449#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/models/TextTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1766" selection-end="1857" vertical-scroll-proportion="-10.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Text.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="14" selection-start="236" selection-end="236" vertical-scroll-proportion="0.4174397">
+        <state line="1" column="0" selection-start="6" selection-end="90" vertical-scroll-proportion="0.036231883">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Exceptions/AdressException.php">
+    <entry file="file://$PROJECT_DIR$/tests/models/AddressTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="10" selection-start="1567" selection-end="1567" vertical-scroll-proportion="1.2244898">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0528169">
+        <state line="31" column="4" selection-start="882" selection-end="942" vertical-scroll-proportion="-19.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Paper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="79" vertical-scroll-proportion="0.0528169">
+        <state line="56" column="51" selection-start="1478" selection-end="1478" vertical-scroll-proportion="-16.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/Exceptions/PHPMailSenderException.php">
+    <entry file="file://$PROJECT_DIR$/tests/models/PaperTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="101" selection-end="101" vertical-scroll-proportion="0.26408452">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Adress.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="32" selection-start="434" selection-end="434" vertical-scroll-proportion="-11.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/models/AdressTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="51" selection-start="1510" selection-end="1510" vertical-scroll-proportion="1.3898602">
+        <state line="25" column="38" selection-start="652" selection-end="652" vertical-scroll-proportion="0.6555944">
           <folding />
         </state>
       </provider>

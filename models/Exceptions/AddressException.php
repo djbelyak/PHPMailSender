@@ -5,6 +5,6 @@ require_once(realpath(dirname(__FILE__)) . '/../Exceptions/PHPMailSenderExceptio
  * @access public
  * @package Exceptions
  */
-class AdressException extends PHPMailSenderException {
+class AddressException extends PHPMailSenderException {
 }
 ?>
