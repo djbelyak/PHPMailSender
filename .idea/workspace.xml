@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17e0aa5a-a278-461d-ae45-c5bc838d74fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/models/EmailTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controllers/controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/PHPMailSender/Email.php" afterPath="$PROJECT_DIR$/models/PHPMailSender/Email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sendpage.html" afterPath="$PROJECT_DIR$/sendpage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sendtext.html" afterPath="$PROJECT_DIR$/sendtext.html" />
     </list>
     <ignored path="PHPMailSender.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,28 +37,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Email.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Email.php">
+      <file leaf-file-name="controller.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controllers/controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="43" selection-start="1268" selection-end="1268" vertical-scroll-proportion="-13.125">
+            <state line="20" column="24" selection-start="335" selection-end="335" vertical-scroll-proportion="-12.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Address.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Address.php">
+      <file leaf-file-name="sendtext.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sendtext.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="5" selection-start="729" selection-end="729" vertical-scroll-proportion="4.9583335">
+            <state line="21" column="76" selection-start="744" selection-end="744" vertical-scroll-proportion="-5.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailTest.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/models/EmailTest.php">
+      <file leaf-file-name="sendpage.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sendpage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="48" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.79710144">
+            <state line="27" column="30" selection-start="892" selection-end="892" vertical-scroll-proportion="0.49275362">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="76" selection-start="736" selection-end="736" vertical-scroll-proportion="-13.125">
               <folding />
             </state>
           </provider>
@@ -94,10 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/models/Mail.php" />
-        <option value="$PROJECT_DIR$/tests/MailTest.php" />
-        <option value="$PROJECT_DIR$/models/Exceptions/PHPMailSenderException.php" />
-        <option value="$PROJECT_DIR$/models/PHPMailSender/Adress.php" />
         <option value="$PROJECT_DIR$/tests/models/AdressTest.php" />
         <option value="$PROJECT_DIR$/models/Exceptions/EmptyAddressException.php" />
         <option value="$PROJECT_DIR$/tests/models/AddressTest.php" />
@@ -110,6 +119,10 @@
         <option value="$PROJECT_DIR$/tests/models/PaperTest.php" />
         <option value="$PROJECT_DIR$/models/PHPMailSender/Email.php" />
         <option value="$PROJECT_DIR$/tests/models/EmailTest.php" />
+        <option value="$PROJECT_DIR$/controllers/controller.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/sendtext.html" />
+        <option value="$PROJECT_DIR$/sendpage.html" />
       </list>
     </option>
   </component>
@@ -174,65 +187,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHPMailSender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHPMailSender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHPMailSender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHPMailSender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHPMailSender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHPMailSender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHPMailSender" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Exceptions" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -294,7 +249,11 @@
       <created>1362847510030</created>
       <updated>1362847510030</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Email classes developed">
+      <created>1362853829522</created>
+      <updated>1362853829522</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -378,7 +337,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Text and Paper classes developed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Email classes developed" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -394,31 +353,12 @@
     <MESSAGE value="Copy skillet of model from Visual Paradigm" />
     <MESSAGE value="Adress class developed" />
     <MESSAGE value="Text and Paper classes developed" />
+    <MESSAGE value="Email classes developed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sendpage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="11" selection-start="838" selection-end="1450" vertical-scroll-proportion="0.49907234" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="10" selection-start="1567" selection-end="1567" vertical-scroll-proportion="1.2244898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Exceptions/PHPMailSenderException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="101" selection-end="101" vertical-scroll-proportion="0.26408452" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/Exceptions/EmptyAddressException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="36" selection-start="175" selection-end="191" vertical-scroll-proportion="-4.375" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/Exceptions/NotValidAddressException.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -480,23 +420,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Address.php">
+    <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="729" selection-end="729" vertical-scroll-proportion="4.9583335">
+        <state line="48" column="43" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.76086956">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Email.php">
+    <entry file="file://$PROJECT_DIR$/models/PHPMailSender/Address.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="43" selection-start="1268" selection-end="1268" vertical-scroll-proportion="-13.125">
+        <state line="30" column="5" selection-start="729" selection-end="729" vertical-scroll-proportion="-0.2874396">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/models/EmailTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="48" selection-start="1069" selection-end="1069" vertical-scroll-proportion="0.79710144">
+        <state line="24" column="37" selection-start="916" selection-end="916" vertical-scroll-proportion="0.54347825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="335" selection-end="335" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="76" selection-start="736" selection-end="736" vertical-scroll-proportion="-13.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendtext.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="76" selection-start="744" selection-end="744" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendpage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="30" selection-start="892" selection-end="892" vertical-scroll-proportion="0.49275362">
           <folding />
         </state>
       </provider>
