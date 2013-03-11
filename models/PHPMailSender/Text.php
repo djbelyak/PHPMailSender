@@ -23,7 +23,7 @@ class Text {
 	public function Text($aText) {
 		$this->text = $aText;
         if ($this->text=="")
-            throw new EmptyTextException();
+            throw new EmptyTextException("Пустой текст сообщения");
 	}
 
 	/**

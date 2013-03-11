@@ -26,20 +26,22 @@
     <div class="container">
       <div class="hero-unit">
         <h1>PHPMailSender</h1>
-        <p>Отправить статью:</p>
-        <form class="form-horizontal" action="controllers/controller.php">
-          <input type="url" class="input-block-level input-medium" placeholder="Введите URL статьи..."
-          name="url">
-          <input type="email" class="input-block-level input-medium" placeholder="Введите e-mail получателя ... "
-          name="email">
-          <div class="form-actions">
-            <button type="submit" class="btn btn-primary" name="action" value="sendpage">Отправить</button>
-            <input type="reset" class="btn" value="Сбросить"> 
+        <p>Во время работы приложения произошла ошибка</p>
+        <p><?php echo $_GET['error']; ?></p>
+      </div>
+      <div class="row">
+        <div class="span6">
+          <div class="well">
+            <a class="btn btn-block btn-large" href="sendtext.html">Отправить напоминание <br>(обычное текстовое сообщение)</a>
           </div>
-        </form>
+        </div>
+        <div class="span6">
+          <div class="well">
+            <a class="btn btn-block btn-large" href="sendpage.html">Отправить статью <br>(содержание указанной гиперссылки)</a>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row"></div>
   </body>
 
 </html>

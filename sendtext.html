@@ -28,12 +28,12 @@
         <h1>PHPMailSender</h1>
         <p>Отправить напоминание:</p>
         <form class="form-horizontal" action="controllers/controller.php">
-          <textarea class="input-block-level" name="text" placeholder="Введите текст напоминания..."
+          <textarea class="input-block-level" name="message" placeholder="Введите текст напоминания..."
           rows="4"></textarea>
           <input type="email" class="input-block-level input-medium"
           placeholder="Введите e-mail получателя ... " name="email">
           <div class="form-actions">
-            <button type="submit" class="btn btn-primary">Отправить</button>
+            <button type="submit" class="btn btn-primary" name="action" value="sendtext">Отправить</button>
             <input type="reset" class="btn" value="Сбросить"> 
           </div>
         </form>

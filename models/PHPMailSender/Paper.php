@@ -24,7 +24,7 @@ class Paper extends Text {
         }
         catch (NotAvailablePaperException $e)
         {
-            $message ='';
+            $message =$e->getMessage();
             throw new NotAvailablePaperException($message, 0, $e);
         }
 	}
@@ -50,11 +50,11 @@ class Paper extends Text {
                 $this->text = file_get_html($this->reference);
             }
             else
-                throw new NotAvailablePaperException();
+                throw new NotAvailablePaperException("Страница не доступна");
         }
         catch (Exception $e)
         {
-            throw new NotAvailablePaperException();
+            throw new NotAvailablePaperException("Страница не доступна");
         }
 
 	}

@@ -21,12 +21,12 @@ class Address {
 	protected function isValidate() {
 		if ($this->address == '')
         {
-            throw new EmptyAddressException();
+            throw new EmptyAddressException("Адрес e-mail пустой");
         }
 
         if (preg_match("/[^(\w)|(\@)|(\.)|(\-)]/",$this->address))
         {
-            throw new NotValidAddressException();
+            throw new NotValidAddressException("Адрес e-mail не допустим");
         }
 	}
 

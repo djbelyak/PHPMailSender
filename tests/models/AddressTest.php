@@ -43,7 +43,7 @@ class AddressTest extends PHPUnit_Framework_TestCase
      */
     public function testNotValidAddress()
     {
-        $email = new Address('djbelyak@gmail.com');
+        $email = new Address('phpmailsender.ivanovich@gmail.com');
 
         $notValidStrings = array ('Привет', 'Hello', 'djbelyak@', 'djbelyak@gmail', 'djbelyak@gmail.');
 
